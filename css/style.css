@@ -96,3 +96,26 @@ ul {
 .about__inner{
     display: flex;
 }
+
+.about__info{
+    width: 375px;
+    margin-right: 50px;
+    flex: none;
+}
+
+.about__info-item{
+    margin-bottom: 25px;
+    color: #E5E5E5;
+}
+
+.about__info-item span{
+    display: block;
+}
+
+.about__text p{
+    margin-bottom: 25px;
+}
+
+
+
+
