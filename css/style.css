@@ -202,6 +202,21 @@ ul {
     z-index: 2;
 }
 
+.heroes__inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.heroes__slider-img{
+    max-width: 775px;
+}
+
+.heroes__text{
+    max-width: 350px;
+}
+
+
+
 .video__btn::before {
     content: '';
     position: absolute;
@@ -209,5 +224,15 @@ ul {
     height: 100px;
     top: -40px;
     left: 0;
-    background-image: url(/images/youtube\ .svg);
+    background-image: url(/images/youtube\.svg);
 }
+
+
+
+
+
+
+
+
+
+
