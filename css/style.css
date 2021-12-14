@@ -117,41 +117,51 @@ ul {
 }
 
 .video {
-    background-image: url('/images/video-bg.jpg');
+    background-image: url(/images/video-bg.jpg);
     height: 100vh;
-    background-size: cover;
     background-position: center center;
+    background-size: cover;
     background-repeat: no-repeat;
+    text-align: right;
 }
 
 .video__text {
-    text-align: right;
     font-style: italic;
     font-weight: 300;
     font-size: 72px;
     line-height: 84px;
     color: #85CCDC;
     padding-top: 45vh;
+    text-align: right;
     margin-bottom: 40px;
-
 }
 
 .video__text span {
     display: block;
-    padding-right: 250px;
+    padding-right: 285px;
 
 }
 
 .video__btn {
     padding-left: 112px;
     position: relative;
-    margin-left: 670px;
+    margin-right: 230px;
+}
 
+
+.video__btn::before {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 0;
+    top: -40px;
+    background-image: url(/images/youtube\ .svg);
 }
 
 .seasons__inner {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-gap: 100px 75px;
     counter-reset: counter;
     padding-top: 50px;
@@ -159,7 +169,6 @@ ul {
 }
 
 .seasons__item {
-    width: 350px;
     height: 250px;
     background-image: url(/images/2.jpg);
     background-repeat: no-repeat;
@@ -266,17 +275,6 @@ ul {
     text-align: center;
 }
 
-
-.video__btn::before {
-    content: '';
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    top: -40px;
-    left: 0;
-    background-image: url(/images/youtube\ .svg);
-}
-
 /* start season-1 */
 .page-header {
     background-image: url('/images/season-1bg.jpg');
@@ -330,43 +328,58 @@ ul {
 /* end season-1 */
 
 /* start media */
-@media (max-width: 1366px){
+@media (max-width: 1366px) {
     .logo__img {
         width: 50%;
     }
+
     .menu__list-link {
         font-size: 24px;
         line-height: 32px;
     }
-    .about__info{
+
+    .about__info {
         width: 250px;
     }
 }
 
-@media (max-width: 768px){
-    .about__inner{
+@media (max-width: 768px) {
+    .about__inner {
         display: block;
     }
-    .section__page{
+
+    .section__page {
         padding: 50px 0;
     }
-    .title{
+
+    .title {
         margin-bottom: 50px;
     }
-    body{
+
+    body {
         font-size: 16px;
         line-height: 19px;
     }
-    .video__text{
+
+    .video__text {
         font-size: 48px;
         line-height: 56px;
     }
 
-    .video__text span{
-        padding-left: 200px;
+    .video__text span {
+        padding-right: 200px;
     }
-    .video__btn{
-        margin-left: 0;
+
+    .video__btn {
+        margin-right: 0;
+        padding-left: 62px;
+    }
+
+    .video__btn::before {
+        width: 50px;
+        height: 50px;
+        background-size: cover;
+        top: -16px;
     }
 
 }
@@ -375,7 +388,8 @@ ul {
     .menu__list {
         display: none;
     }
-    .logo{
+
+    .logo {
         padding-top: 21vh;
     }
 }
