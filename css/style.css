@@ -161,7 +161,7 @@ ul {
 
 .seasons__inner {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     grid-gap: 100px 75px;
     counter-reset: counter;
     padding-top: 50px;
@@ -343,6 +343,28 @@ ul {
     }
 }
 
+@media (max-width: 1200px) {
+    .heroes__inner {
+        display: block;
+    }
+
+    .heroes__slider-text {
+        max-width: 100%;
+        padding-top: 50px;
+    }
+
+    .heroes__slider-img {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 1088px) {
+    .seasons__item {
+        height: 340px;
+    }
+}
+
+
 @media (max-width: 768px) {
     .about__inner {
         display: block;
@@ -382,6 +404,10 @@ ul {
         top: -16px;
     }
 
+    .seasons__inner {
+        grid-gap: 80px 35px; 
+    }
+
 }
 
 @media (max-width: 640px) {
@@ -391,6 +417,13 @@ ul {
 
     .logo {
         padding-top: 21vh;
+    }
+}
+
+@media (max-width: 414px) {
+    .seasons__item {
+        height: 203px;
+
     }
 }
 
