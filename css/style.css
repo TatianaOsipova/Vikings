@@ -464,6 +464,8 @@ ul {
 
     .menu__list.menu__list--active{
         transform: translateY(0%);
+        padding: 100px 0 50px;
+        background-color: #0E0E0E;
     }
     .menu__list-link{
         display: block;
@@ -480,6 +482,7 @@ ul {
         height: 50px;
         cursor: pointer;
         position: absolute;
+        z-index: 10;
         right: 10px;
         top: 20px;
     }
