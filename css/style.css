@@ -453,6 +453,12 @@ ul {
 @media (max-width: 640px) {
     .menu__list {
        display: block;
+       transform: translateY(-130%);
+       transition: all .3s;
+    }
+
+    .menu__list.menu__list--active{
+        transform: translateY(0%);
     }
     .menu__list-link{
         display: block;
