@@ -281,7 +281,7 @@ ul {
 
 /* start season-1 */
 .page-header {
-    background-image: url('/images/season-1bg.jpg');
+    background-image: url('../images/season-1bg.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
