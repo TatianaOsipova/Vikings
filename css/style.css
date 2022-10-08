@@ -39,7 +39,6 @@ ul {
 
 /*header start*/
 
-
 .header {
     background-image: url('../images/header-bg.jpg');
     height: 100vh;
@@ -59,7 +58,6 @@ ul {
     width: 100%;
     background: linear-gradient(180deg, #0E0E0E 0%, rgba(17, 17, 17, 0.850295) 16.53%, rgba(32, 31, 33, 0) 100%);
     transform: rotate(180deg);
-
 }
 
 .menu {
@@ -71,11 +69,9 @@ ul {
     display: none;
 }
 
-
 .menu__list {
     display: flex;
     justify-content: center;
-
 }
 
 
@@ -152,7 +148,6 @@ ul {
     margin-right: 230px;
 }
 
-
 .video__btn::before {
     content: '';
     position: absolute;
@@ -169,7 +164,6 @@ ul {
     grid-gap: 100px 75px;
     counter-reset: counter;
     padding-top: 50px;
-
 }
 
 .seasons__item {
@@ -252,12 +246,10 @@ ul {
 
 .slick-prev {
     left: 38px;
-
 }
 
 .slick-next {
     right: 38px;
-
 }
 
 .heroes__name {
@@ -267,7 +259,6 @@ ul {
     line-height: 84px;
     color: #85CCDC;
     margin-bottom: 44px;
-
 }
 
 .heroes__text p {
@@ -280,6 +271,7 @@ ul {
 }
 
 /* start season-1 */
+
 .page-header {
     background-image: url('../images/season-1bg.jpg');
     background-repeat: no-repeat;
@@ -332,6 +324,7 @@ ul {
 /* end season-1 */
 
 /* start media */
+
 @media(max-width: 1420px){
     .page-logo{
         left: 10px;
@@ -455,8 +448,8 @@ ul {
         padding: 0;
         text-align: center;
         background: linear-gradient(180deg, #111213 0%, #111213 10%, rgba(32, 31, 33, 0) 86.33%);
-
     }
+
     .menu__list {
        display: block;
        transform: translateY(-130%);
@@ -468,6 +461,7 @@ ul {
         padding: 100px 0 50px;
         background-color: #0E0E0E;
     }
+
     .menu__list-link{
         display: block;
         padding: 10px 0px;
@@ -497,7 +491,6 @@ ul {
         background-color: transparent;
         border: none;
         padding: 0;
-
     }
     .menu__btn span{
         background-color: #fff;
@@ -531,6 +524,7 @@ ul {
 
     }
 }
+
 @media (max-width: 374px){
     .page-header{
         height: 200vh;
@@ -538,3 +532,4 @@ ul {
 }
 
 /* end media */
+
