@@ -220,6 +220,10 @@ ul {
     z-index: 2;
 }
 
+.title{
+    margin-top: 100px;
+}
+
 .heroes__inner {
     display: flex;
     justify-content: space-between;
