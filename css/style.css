@@ -227,6 +227,7 @@ ul {
 .heroes__inner {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 100px;
 }
 
 .heroes__slider-img {
@@ -294,6 +295,12 @@ ul {
 .page-logo {
     position: absolute;
 }
+
+.seasons__inner{
+    margin-bottom: 161px;
+}
+
+
 
 .season-info {
     position: absolute;
