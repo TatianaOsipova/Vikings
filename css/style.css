@@ -95,6 +95,7 @@ ul {
 
 .about__inner {
     display: flex;
+    margin-bottom: 104px;
 }
 
 .about__info {
