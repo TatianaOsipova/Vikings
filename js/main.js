@@ -10,6 +10,10 @@ $(function () {
         asNavFor: '.heroes__slider-text',
         prevArrow: '<button class="slick-btn slick-prev"><img src="images/arrow left.png" alt="prev"></button>',
         nextArrow: '<button class="slick-btn slick-next"><img src="images/arrow right.png" alt="next"></button>',
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
         responsive: [
             { 
                 breakpoint: 769,
